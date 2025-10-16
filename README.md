@@ -8,7 +8,7 @@ See in `requirements.txt`.
 ### 2. Prepare datasets and models
 Download the datasets, [Flickr30k](https://shannon.cs.illinois.edu/DenotationGraph/) and [MSCOCO](https://cocodataset.org/#home) (the annotations is provided in ./data_annotation/). Set the root path of the dataset in `./configs/Retrieval_flickr.yaml, image_root`.  
 The checkpoints of the fine-tuned VLP models is accessible in [ALBEF](https://github.com/salesforce/ALBEF), [TCL](https://github.com/uta-smile/TCL).
-Download the required files, [counter-fitted-vectors.txt](https://drive.google.com/file/d/14Non5yIDaHPUk2TPIskfE-IZ-NiuYjXW/view?usp=drive_link) and [mat_sim_0.4.txt](https://drive.google.com/file/d/1Uk_IFWdfTLn3rwAmdbT5iY5luv06LSyl/view?usp=drive_link) (Place these two files in the data folder)
+Download the required files, [counter-fitted-vectors.txt](https://drive.google.com/file/d/14Non5yIDaHPUk2TPIskfE-IZ-NiuYjXW/view?usp=drive_link) and [mat_sim_0.4.txt](https://drive.google.com/file/d/1Uk_IFWdfTLn3rwAmdbT5iY5luv06LSyl/view?usp=drive_link) (Please create a folder named “data” in the project directory and place these two files in that folder.)
 
 ### 3. Attack evaluation
 
